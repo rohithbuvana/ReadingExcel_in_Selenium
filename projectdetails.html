@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using a sample registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="form-validation.js"></script>
+</head>
+<body onload="document.project.pname.focus();">
+<h1>Project Form</h1>
+<form name='project' onSubmit="return formValidation2();">
+<ul>
+<li><label for="pname">Project Name:</label></li>
+<li><input type="text" name="pname" size="20" /></li>
+<li><label for="cname">Client Name:</label></li>
+<li><input type="text" name="cname" size="20" /></li>
+<li><label for="tsize">Team Size:</label></li>
+<li><input type="text" name="tsize" size="3" /></li>
+
+<li><input type="submit" name="submit" value="Submit" /></li>
+
+</ul>
+</form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<title>JavaScript Form Validation using a sample registration form</title>
+<meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+<meta name="description" content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+<link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+<script src="sample-registration-form-validation.js"></script>
+</head>
+<body onload="document.registration.fname.focus();">
+<h1>Registration Form</h1>
+<form name='registration' onSubmit="return formValidation();">
+<ul>
+<li><label for="fname">First Name:</label></li>
+<li><input type="text" name="fname" size="20" /></li>
+<li><label for="lname">Last Name:</label></li>
+<li><input type="text" name="lname" size="20" /></li>
+<li><label for="email">Email:</label></li>
+<li><input type="text" name="email" size="20" /></li>
+<li><label for="mobile">Contact Number:</label></li>
+<li><input type="text" name="mobile" size="10" /></li>
+<li><label for="address">Address:</label></li>
+<li><input type="text" name="address" size="50" /></li>
+<li><label for="city">City:</label></li>
+<li><input type="text" name="city" size="10" /></li>
+<li><label for="state">State:</label></li>
+<li><select name="state">
+<option selected="" value="Default">(Please select a state)</option>
+<option value="TN">Tamil Nadu</option>
+<option value="AP">Andhra Pradesh</option>
+<option value="KL">Kerala</option>
+<option value="MH">Maharashtra</option>
+<option value="UP">Uttar Pradesh</option>
+</select></li>
+<li><input type="submit" name="submit" value="Submit" /></li>
+
+</ul>
+</form>
+</body>
+</html>
